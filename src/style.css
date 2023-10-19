@@ -1,0 +1,151 @@
+.the{
+    font-weight: lighter;
+}
+.text-The{
+    display: inline-block;
+    transform: rotate(270deg);
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+}
+h1{
+    display: flex;
+    margin: 20px;
+}
+hr{
+    width: 100%;
+}
+.image-home{
+    display: grid;
+    grid-template-columns:auto auto auto ;
+   
+    justify-self: center;
+    align-self: center;
+    border: 1px solid black;
+    gap: 10px;
+    /* height: 100px; */
+    margin: 20px;
+
+}
+.image1{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    width: 700px;
+    height: 420px;
+    
+}
+.image2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+   height: 200px;
+   width: 595px;
+}
+.image3{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    height: 210px;
+    width: 595px;
+}
+.container-home{
+    border: 1px solid black;
+    /* width: 100%; */
+    margin: 20px;
+    display: flex;
+    height: 150px;
+}
+.parent-home{
+    /* border: 1px solid black;
+    display: flex;
+    flex-direction: column; */
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center-align items */
+    gap: 10px;
+    height: 140px;
+    font-size: 10px;
+    margin: 20px;
+   
+}
+
+.parent{
+    border: 2px solid red;
+    display: flex;
+    gap: 10px;
+    height: 140px;
+    font-size: 10px;
+    margin: 20px;
+}
+ .child{
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* width: 75%; */
+    
+} 
+.grand{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* flex-wrap:wrap ; */
+    /* justify-content:space-around; */
+}
+
+.rightparent{
+    display: flex;
+  
+    margin: 20px;
+    border: 1px solid black;
+    
+    
+}
+.rightparent1{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start ;
+    height: 50px;
+    /* height: 120px; */
+}
+.rightchild1{
+    border: 1px solid black;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* height: 100px; */
+    
+}
+.rightchild{
+    font-size: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.parentfooter{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(185, 212, 245);
+}
+.number{
+    /* font-size: 30px; */
+    position: relative;
+    left: 120px;
+}
+.blog{
+   margin-top: 40px;
+   font-size: 30px;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+@media screen and (min-width:250px) and (max-width:500px) {
+    
+}
